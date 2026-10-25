@@ -4,6 +4,21 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>FileNameHelper</Title>
+    <Authors>AdriansRepos</Authors>
+    <Description>Knihovna pro bezpečné použití libovolného textu (jméno, název) jako součásti názvu souboru nebo složky ve Windows.</Description>
+    <PackageProjectUrl>https://github.com/AdriansRepos/FileNameHelper</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/AdriansRepos/FileNameHelper</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
