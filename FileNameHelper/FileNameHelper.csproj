@@ -11,6 +11,11 @@
     <PackageProjectUrl>https://github.com/AdriansRepos/FileNameHelper</PackageProjectUrl>
     <RepositoryUrl>https://github.com/AdriansRepos/FileNameHelper</RepositoryUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Version>1.0.1</Version>
+    <PackageReleaseNotes>Oprava chybného názvu balíčku v příkazu pro instalaci.
+</PackageReleaseNotes>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
+    <FileVersion>1.0.1</FileVersion>
 
   </PropertyGroup>
 
